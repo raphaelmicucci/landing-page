@@ -79,16 +79,34 @@ header {
   padding: 75px 150px;
 }
 
+.features h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1F2937
+}
+
 .feature-container {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 50px;
 }
 
-.features h2 {
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feature img {
+  border: solid 4px #3882F6;
+  border-radius: 10px;
+  height: 150px;
+  width: 150px;
+  margin: auto;
+}
+
+.feature p {
   text-align: center;
+  margin-top: 10px;
 }
-
-.features p {
-  text-align: center;
-}
-
