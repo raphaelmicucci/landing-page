@@ -57,14 +57,16 @@ header {
 }
 
 .signup {
-  background-color: #3882F6;
   border: none;
-  padding: 8px 32px;
+  margin-top: 16px;
+}
+
+button {
+  background-color: #3882F6;
   color: #F9FAF8;
+  padding: 8px 32px;
   font-size: 18px;
   border-radius: 8px;
-  margin-top: 16px;
-
 }
 
 .hero-image {
@@ -129,4 +131,37 @@ header {
   font-weight: bold;
   padding-right: 20px;
   color: #1F2937;
+}
+
+.action {
+  margin: 75px 150px;
+  background-color: #3882F6;
+  padding: 35px 75px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.action h3 {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.action p {
+  font-size: 16px;
+  color: #E5E7EBEE
+}
+
+.action-button {
+  border: solid 2px #F9FAF8;
+}
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F2937;
+  color: #E5E7EB;
+  padding: 40px 0;
 }
